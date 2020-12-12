@@ -1,0 +1,21 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Dec 12 11:04:30 2020
+
+@author: Mateus Nobre Silva Almeida
+"""
+
+
+Entrada = input()
+
+auxiliar = Entrada.split(" ")
+
+
+Competidores = int(auxiliar[0])
+QuantidadeFolhasEspecial = int(auxiliar[1])
+QuantidadeFolhasCompetidor = int(auxiliar[2])
+
+if((QuantidadeFolhasEspecial / Competidores) >= QuantidadeFolhasCompetidor):
+    print("S")
+else:
+    print("N")
