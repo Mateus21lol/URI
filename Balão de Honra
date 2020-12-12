@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Dec 12 01:10:53 2020
+
+@author: Mateus Nobre Silva Almeida
+"""
+          
+Alfabeto = ["-","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P",
+            "Q","R","S","T","U","V","W","X","Y","Z"]
+
+
+X = input()
+
+AlfabetoTam = len(Alfabeto)
+
+for i in range(0,AlfabetoTam):
+    if(X == Alfabeto[i]):
+        Y = i
+
+print(Y)
